@@ -167,6 +167,17 @@ section.harrastukset{
   border: solid 2px #222831;
   text-align: left;
 }
+section.projects{
+  width: 100%;
+  color: #000000;
+  float: left;
+  padding: 10px;
+  padding-bottom: 30px;
+  border-radius: 16px;
+  border: solid 2px #222831;
+  text-align: left;
+  
+}
 section.kuvakollaasi{
   width: 40%;
   margin-top: 50px; 
@@ -430,11 +441,22 @@ table {
 th, td {
   border: 1px solid #ddd;
   text-align: left;
+  font-size: 100%;
   padding: 8px;
 }
 th {
   background-color: #f4f4f4;
 }
-tr:nth-child(even) {
-  background-color: #f9f9f9;
+
+#OS{
+  width: 32%;
+  display: inline-block;
+}
+#tools{
+  width: 32%;
+  display: inline-block;
+}
+#other{
+  width: 32%;
+  display: inline-block;
 }
