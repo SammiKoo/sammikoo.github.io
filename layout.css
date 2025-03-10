@@ -461,3 +461,15 @@ th {
   width: 32%;
   display: inline-block;
 }
+section.LinkedIn{
+  float:left;
+}
+img.LinkedIn{
+  width: 25%;
+  }
+section.GitHub{
+  float:right;
+}
+img.GithubLogo{
+  width: 25%;
+}
