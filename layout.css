@@ -56,12 +56,17 @@ h3{
   font-size: 200%;
   border-radius: 7px;
 }
-#KoulutyÃ¶totsikko{
-  margin-top: 0;
+#projektit{
+  margin-top: 1;
   color:black;
   background-color: white;
   font-size: 200%;
   border-radius: 7px;
+  
+}
+
+#koulutyöt{
+  background-color: pink;
 }
 
 img{
@@ -415,4 +420,21 @@ address{
     margin: 0px;
 
   }
+}
+/* Taulukon määrittely */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+th, td {
+  border: 1px solid #ddd;
+  text-align: left;
+  padding: 8px;
+}
+th {
+  background-color: #f4f4f4;
+}
+tr:nth-child(even) {
+  background-color: #f9f9f9;
 }
